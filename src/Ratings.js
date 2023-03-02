@@ -20,7 +20,7 @@ export default function Ratings() {
     }, []);
 
     return (
-        <div className={"container"}>
+        <div className={"ratings-container"}>
             <h1 className={"title"}>Ron's Ratings</h1>
             <Link to='/'>
                 <button className={"button"}>Go rate some more</button>

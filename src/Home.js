@@ -63,7 +63,7 @@ export default function Home() {
     }
   
     return (
-      <div className={"container"}>
+      <div className={"home-container"}>
         <h1 className={"title"}>Ron</h1>
         <div className={"imageContainer"}>
           <img src={`/images/${imageUrl}`} className={"image"} />
